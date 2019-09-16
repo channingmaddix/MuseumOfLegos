@@ -1,0 +1,53 @@
+body { background: rgb(255, 207, 0);
+        font-family: Russo One;
+        margin-bottom: 100px; }
+
+/* .navbar { background-color: rgb(48, 85, 181); } */
+
+h2 {
+    color: rgb(196, 40, 27);
+}
+
+.legos {
+    color: white;
+}
+
+.blurb p {
+    color: rgb(48, 85, 181);
+    font-size: 1rem;
+}
+
+/* .content{
+    margin-top: 100px;
+} */
+
+#brand { color: rgb(196, 40, 27);}
+
+#mainNavbar .nav-link:hover { color: rgb(196, 40, 27);}
+
+#headingGroup span { color: rgb(196, 40, 27); }
+
+.navbar.scrolled {
+    background: rgb(48, 85, 181);
+    transition: background 600ms;
+}
+
+@media(max-width: 935px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .text {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width: 768px) {
+    .content {
+        margin-top: 100px;
+    }
+}
